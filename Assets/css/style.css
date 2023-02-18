@@ -1,0 +1,53 @@
+.btn{
+  border-radius: 0 !important;
+}
+.card{
+  border-radius: 0 !important;
+}
+
+section:nth-child(even){
+  background: lightgrey;
+}
+
+/* header */
+/* header */
+header{
+  height: 70vh;
+  min-height: 300px;
+  background-size: cover;
+  background-image: url(/Assets/img/background.jpg);
+}
+header .text{
+  text-align: center;
+  padding-top: 15rem;
+}
+
+/* navbar */
+/* navbar */
+.navbar .navbar-nav .icon i{
+  color: black;
+}
+.navbar .nav-item .nav-link{
+  padding: 0 2rem !important;
+}
+.navbar .nav-item .nav-link {
+ color: black;
+ font-size: 1rem;
+ font-weight: 500;
+}
+.navbar .icon{
+  color: black;
+  font-weight: 500;
+}
+/* best seller */
+#best-seller{
+  height: 70vh; 
+}
+
+@media only screen and (max-width:520px){
+  header{
+    height: 50vh;
+  }
+  
+
+}
